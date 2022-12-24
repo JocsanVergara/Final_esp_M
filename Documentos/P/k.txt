@@ -1,0 +1,24 @@
+pi_1
+Rasberrypi.1
+
+pi_2
+Rasberrypi.2
+
+python3 -m pip install pymongo
+sudo chmod 666 /dev/ttyUSB0
+cd Desktop/Memoria
+python catch_ant2.py
+nano catch_ant1.py
+
+python Captura_servidor.py
+
+
+python capt_csv.py
+Punto de captura
+Altura de la antena
+Distancia entre antenas
+Error del dato
+Distancia antena tag
+
+python capt_csv.py 10 170 120 0 85
+python capt_csv.py 10 170 120 0 190
